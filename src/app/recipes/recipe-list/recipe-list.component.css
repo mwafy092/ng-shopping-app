@@ -1,0 +1,27 @@
+.recipe-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  margin: 10px 0;
+}
+
+.recipe-heading {
+  font-size: 20px;
+}
+.recipe-text {
+  font-size: 16px;
+  color: #777;
+}
+.recipe-img {
+  max-width: 50px;
+  border-radius: 5px;
+}
+
+.recipe-container:hover {
+  background-color: #ddd;
+  transition: all 0.4s ease-in-out;
+}
